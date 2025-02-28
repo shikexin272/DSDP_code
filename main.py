@@ -154,7 +154,7 @@ class BasicModel:
             x = np.clip(x, 0., 1.)
         return x
 
-# 自己加的地方
+
 if __name__ == "__main__":
     global tau,mu
     data_name = 'gf5_demo'
